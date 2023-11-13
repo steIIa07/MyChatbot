@@ -1,0 +1,34 @@
+<!Doctype html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="../css/chat.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel = "icon" href = "../image/chatbot.jpg">
+<title>SimpleChatbot</title>
+<script type="text/javascript" src="../js/jQuery-3.3.1.min.js"></script>
+<script src="../js/chat.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+    <!-- Lv.1:①見出しを作成 -->
+    <h1>Chatbot</h1>
+    <div id="chat-area" class="auto-resize">
+        <ul style="list-style:none;">
+        </ul>
+    </div>
+    <div>
+        <footer>
+            <!-- Lv.1:➂テキストエリアを作成 -->
+            <textarea id="chat-text" cols="30" row="1" placeholder="メッセージを入力してください"></textarea>
+            <!-- Lv.1:➁送信ボタンを作成 -->
+            <!-- <button id="chat-btn"> 送信 </button> -->
+            <input type="image" id="chat-btn" src="../image/send.png" alt="送信ボタン">
+        </footer>
+    </div>
+</div>
+</body>
+</html>
